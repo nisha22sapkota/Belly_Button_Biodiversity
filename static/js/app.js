@@ -4,7 +4,7 @@ function gettingPlots(id){
 
 //  create json to read file
 
-d3.json("../../samples.json").then ((data) =>
+d3.json("samples.json").then ((data) =>
 {    
      // console to check the data
      console.log(data)
