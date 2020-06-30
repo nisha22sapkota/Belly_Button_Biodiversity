@@ -105,7 +105,7 @@ d3.json("samples.json").then ((data) =>
 function gettingDemoInfo(id) {
 
 // creating json to read data
-     d3.json("../../samples.json").then((sampledata)=> {
+     d3.json("samples.json").then((sampledata)=> {
           // getting metadata for demograph panel
           var metadata = sampledata.metadata;
           console.log(metadata)
@@ -140,7 +140,7 @@ function optionChanged(id) {
      var dropdown = d3.select("#selDataset");
  
      // read the data 
-     d3.json("../../samples.json").then((sampledata)=> {
+     d3.json("samples.json").then((sampledata)=> {
          console.log(sampledata)
  
          // getting the id data to the dropdwown menu
